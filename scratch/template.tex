@@ -1,0 +1,130 @@
+%% start of file `template.tex'.
+%% Copyright 2006-2013 Xavier Danaux (xdanaux@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+
+\documentclass[11pt,a4paper,sans]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+
+\usepackage[style=apa,sortcites=true,sorting=ydnt,backend=biber]{biblatex}
+\DeclareLanguageMapping{american}{american-apa}
+\bibliography{../../MASTERBIB/AuthorIDs,crcox_publications}
+
+% moderncv themes
+\moderncvstyle{casual}                             % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue}                               % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+%\renewcommand{\familydefault}{\sfdefault}         % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
+%\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
+
+% character encoding
+%\usepackage[utf8]{inputenc}                       % if you are not using xelatex ou lualatex, replace by the encoding you are using
+%\usepackage{CJKutf8}                              % if you need to use CJK to typeset your resume in Chinese, Japanese or Korean
+
+% adjust the page margins
+\usepackage[scale=0.75]{geometry}
+%\setlength{\hintscolumnwidth}{3cm}                % if you want to change the width of the column with the dates
+%\setlength{\makecvtitlenamewidth}{10cm}           % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
+
+% personal data
+\name{Christopher}{Cox}
+\address{1202 West Johnson Street Rm 611}{Madison, WI 53706}{USA}% optional, remove / comment the line if not wanted; the "postcode city" and "country" arguments can be omitted or provided empty
+\phone[mobile]{+1~(847)~347~9784}                   % optional, remove / comment the line if not wanted; the optional "type" of the phone can be "mobile" (default), "fixed" or "fax"
+\email{crcox@wisc.edu}                               % optional, remove / comment the line if not wanted
+\homepage{lcnl.wisc.edu/people/ccox}                         % optional, remove / comment the line if not wanted
+\social[github]{crcox}                     
+%\photo[64pt][0.4pt]{picture}                       % optional, remove / comment the line if not wanted; '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
+
+% to show numerical labels in the bibliography (default is to show no labels); only useful if you make citations in your resume
+%\makeatletter
+%\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+%\makeatother
+%\renewcommand*{\bibliographyitemlabel}{[\arabic{enumiv}]}% CONSIDER REPLACING THE ABOVE BY THIS
+
+% bibliography with mutiple entries
+%\usepackage{multibib}
+%\newcites{p}{Journal Publications}
+%\newcites{pip}{Manuscripts under review and in preparation}
+%\newcites{bip}{Chapters under review and in preparation}
+%\newcites{post}{Refereed Conference Posters}
+
+
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+%\begin{CJK*}{UTF8}{gbsn}                          % to typeset your resume in Chinese using CJK
+%-----       resume       ---------------------------------------------------------
+\makecvtitle
+
+\section{Education}
+\cventry{2011}{M.S. Cognitive Psychology}{University of Wisconsin}{Madison}{}{}  % arguments 3 to 6 can be left empty
+\cventry{2009}{B.S. Psychology}{DePaul University}{Chicago, IL}{\textit{Magna cum Laude}}{}
+\cventry{2009}{B.A. Economics}{DePaul University}{Chicago, IL}{\textit{Magna cum Laude}}{}
+
+%\section{Master thesis}
+%\cvitem{title}{\emph{Title}}
+%\cvitem{supervisors}{Supervisors}
+%\cvitem{description}{Short thesis abstract}
+
+\section{Professional Experience}
+\subsection{Research Experience}
+\cventry{2010--present}{Graduate Student}{Advisors: Timothy T. Rogers and Mark S. Seidenberg, University of Wisconsin}{Madison, WI}{}{}
+\cventry{2009--2010}{Operations Research Analyst}{TRADOC, US Department of Defense}{White Sands, NM}{}{}
+\cventry{2007--2009}{Research Assistant}{Supervisor: Pablo Gomez, DePaul University}{Chicago, IL}{}{}
+
+\subsection{Teaching/Mentoring Experience}
+\cventry{2014}{PREP Student Mentor}{University of Wisconsin}{Madison}{}{Advised and mentored a talented undergraduate for 11 weeks during the summer as part of the Psychological Research Experience Program (PREP). PREP provides intensive mentoring and experience in scientific research and professional development to undergraduates from historically underrepresented populations.}
+\cventry{2013--2014}{Teacher's Assistant}{Univeristy of Wisconsin}{Madison}{}{Graduate level statistics course in the Psychology Department with emphasis on regression and hierarchical linear models. Course was co-taught by John Curtin and Markus Brauer.}
+\cventry{2013}{Guest lecture}{Univeristy of Wisconsin}{Madison}{}{Invited by Anja Wanner to give a guest lecture in ENG 413 ``English Words: Grammar, Culture, Mind'' on the neural representation of word meanings.}
+
+\section{Selected Professional Honors/Rewards}
+\cventry{2013}{Rumelhart Memorial Travel Award}{}{}{}{Awarded to best first-author student and post-doc submissions to the Neural Computation and Psychology Workshop}
+\cventry{2013}{Neural Information Processing Systems (NIPS) Spotlight Talk}{}{}{}{There were 1420 submissions to NIPS13. Of these, 52 were selected for spotlight presentations.}
+\cventry{2010}{Official Commendation from US ARMY}{}{}{}{Awarded by the Director of the TRADOC Analysis Center, Colonel Garrett R. Lambert.}
+
+\section{Grants/Scholarships}
+\cventry{2014}{Schwartz Grant}{Departmental award}{}{}{}
+\cventry{2011--2014}{Hertz Grant}{Departmental travel award}{}{}{Awarded each year to offset traveling to present first author poster or paper.}
+\cventry{2009}{SMART Scholarship}{Department of Defense}{}{}{The Science, Mathematics And Research for Transformation (SMART) Scholarship for Service Program (http://smart.asee.org/).}
+\cventry{2005}{Centennial Scholarship}{DePaul University}{}{}{}
+
+\section{Association Memberships}
+\cvlistdoubleitem{Cognitive Neuroscience Society}{}{}{}
+
+% Publications from a BibTeX file without multibib
+%  for numerical labels: \renewcommand{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}% CONSIDER MERGING WITH PREAMBLE PART
+%  to redefine the heading string ("Publications"): \renewcommand{\refname}{Articles}
+%\nocite{*}
+%\bibliographystyle{plain}
+%\bibliography{publications}                        % 'publications' is the name of a BibTeX file
+
+\nocite{*}
+\printbibheading[title={Publications}]
+\printbibliography[nottype=article,heading=subbibliography,title={Journal Publications}]
+\printbibliography[keyword=article_ip,heading=subbibliography,title={Manuscripts under review and in preparation}]
+\printbibliography[keyword=chapter,heading=subbibliography,title={Chapters}]
+\printbibliography[keyword=poster,heading=subbibliography,title={Refereed Conference Posters}]
+
+%\nocitep{*}
+%\bibliographystylep{plainyr}
+%\bibliographyp{../../MASTERBIB/AuthorIDs,papers}
+%
+%\nocitepip{*}
+%\bibliographystylepip{plainyr}
+%\bibliographypip{../../MASTERBIB/AuthorIDs,papers_inpress}
+%
+%\nocitebip{*}
+%\bibliographystylebip{plainyr}
+%\bibliographybip{../../MASTERBIB/AuthorIDs,chapters_inpress}
+%
+%\nocitepost{*}
+%\bibliographystylepost{plainyr}
+%\bibliographypost{../../MASTERBIB/AuthorIDs,posters}
+
+
+\end{document}
+
+
+%% end of file `template.tex'.

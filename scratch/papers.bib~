@@ -1,0 +1,20 @@
+@article{RaoML,
+	author=RaoN #" and "# NowakR #" and "# CoxCR #" and "# RogersTT,
+  title     = {Logistic Regression with Structured Sparsity},
+  journal   = {CoRR},
+  volume    = {abs/1402.4512},
+  year      = {2014},
+  url       = {http://arxiv.org/abs/1402.4512},
+}
+
+
+@incollection{RaoNIPS,
+	title = {Sparse Overlapping Sets Lasso for Multitask Learning and its Application to fMRI Analysis},
+	author = RaoN #" and "# CoxCR #" and "# NowakR #" and "# RogersTT,
+	booktitle = {Advances in Neural Information Processing Systems 26},
+	editor = {C.J.C. Burges and L. Bottou and M. Welling and Z. Ghahramani and K.Q. Weinberger},
+	pages = {2202--2210},
+	year = {2013},
+	publisher = {Curran Associates, Inc.},
+}
+

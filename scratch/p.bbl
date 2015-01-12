@@ -1,0 +1,16 @@
+\begin{thebibliography}{1}
+
+\bibitem{RaoNIPS}
+Nikhil Rao, Christopher~Richard Cox, Robert Nowak, and Timothy~T. Rogers.
+\newblock Sparse overlapping sets lasso for multitask learning and its
+  application to fmri analysis.
+\newblock In C.J.C. Burges, L.~Bottou, M.~Welling, Z.~Ghahramani, and K.Q.
+  Weinberger, editors, {\em Advances in Neural Information Processing Systems
+  26}, pages 2202--2210. Curran Associates, Inc., 2013.
+
+\bibitem{RaoML}
+Nikhil Rao, Robert Nowak, Christopher~Richard Cox, and Timothy~T. Rogers.
+\newblock Logistic regression with structured sparsity.
+\newblock {\em CoRR}, abs/1402.4512, 2014.
+
+\end{thebibliography}

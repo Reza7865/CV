@@ -1,0 +1,41 @@
+@Misc{cox_CNS_2014,
+	title={SOS Lasso: A new method for finding distributed representations in f{MRI} Data},
+	author=CoxCR #" and "# RaoN #" and "# NowakR #" and "# RogersTT,
+	year=2014,
+	howpublished = {Poster presented at the 21st meeting of the Cognitive Neuroscience Society, Boston, MA}
+}
+
+@Misc{cox_WARF_2012,
+	title={A new method for fMRI analysis suggests that representations of word meaning are radically distributed},
+	author=CoxCR #" and "# MalekpourS #" and "# NowakR #" and "# RogersTT,
+	year=2012,
+	howpublished = {Poster presented at 1st Wisconsin Alumni Research Foundation Discovery Challenge, Madison, WI}
+}
+
+@Misc{cox_NCPW_2012,
+	title={Are semantic representations of words radically distributed?},
+	author=CoxCR #" and "# SeidenbergMS #" and "# BinderJR #" and "# DesaiRH #" and "# RogersTT,
+	year=2012,
+	howpublished = {Poster presented at 13th meeting of the Neural Computation and Psychology Workshop, Donastia-San Sebastian, Spain}
+}
+
+@Misc{cox_CNS_2012,
+	title={Are semantic representations of words radically distributed?},
+	author=CoxCR #" and "# SeidenbergMS #" and "# BinderJR #" and "# DesaiRH #" and "# RogersTT,
+	year=2012,
+	howpublished = {Poster presented at 19th Meeting of the Cognitive Neuroscience Society, Chicago, IL}
+}
+
+@Misc{gomez_SCP_2011,
+	title={Modeling corrective saccades},
+	author=GomezP #" and "# CoxCR #" and "# GellerJ,
+	year=2011,
+	howpublished = {Poster presented at 41st Meeting of the Society for Computers in Psychology Meeting, Seattle, WA}
+}
+
+@Misc{cox_PNOMICS_2009,
+	title={Are semantic representations of words radically distributed?},
+	author=CoxCR #" and "# GomezP,
+	year=2009,
+	howpublished = {Poster presented at the 50th Annual Meeting of the Psychonomic Society, Boston, MA}
+}
