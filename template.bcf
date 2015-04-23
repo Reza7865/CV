@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<bcf:controlfile version="2.6" xmlns:bcf="https://sourceforge.net/projects/biblatex">
+<bcf:controlfile version="2.5" xmlns:bcf="https://sourceforge.net/projects/biblatex">
   <!-- BIBER OPTIONS -->
   <bcf:options component="biber" type="global">
     <bcf:option type="singlevalued">
@@ -114,10 +114,6 @@
       <bcf:value>+</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
-      <bcf:key>sortlocale</bcf:key>
-      <bcf:value>english</bcf:value>
-    </bcf:option>
-    <bcf:option type="singlevalued">
       <bcf:key>sortscheme</bcf:key>
       <bcf:value>ydnt</bcf:value>
     </bcf:option>
@@ -127,7 +123,7 @@
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>uniquename</bcf:key>
-      <bcf:value>2</bcf:value>
+      <bcf:value>0</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>useauthor</bcf:key>
@@ -756,7 +752,11 @@
       <bcf:field fieldtype="field" datatype="literal">relatedtype</bcf:field>
       <bcf:field fieldtype="field" datatype="literal">reprinttitle</bcf:field>
       <bcf:field fieldtype="field" datatype="literal">series</bcf:field>
+      <bcf:field fieldtype="field" datatype="literal">shorthand</bcf:field>
       <bcf:field fieldtype="field" datatype="literal">shorthandintro</bcf:field>
+      <bcf:field fieldtype="field" datatype="literal">shortjournal</bcf:field>
+      <bcf:field fieldtype="field" datatype="literal">shortseries</bcf:field>
+      <bcf:field fieldtype="field" datatype="literal">shorttitle</bcf:field>
       <bcf:field fieldtype="field" datatype="literal">subtitle</bcf:field>
       <bcf:field fieldtype="field" datatype="literal">title</bcf:field>
       <bcf:field fieldtype="field" datatype="literal">titleaddon</bcf:field>
@@ -770,10 +770,6 @@
       <bcf:field fieldtype="field" datatype="literal">version</bcf:field>
       <bcf:field fieldtype="field" datatype="literal">volume</bcf:field>
       <bcf:field fieldtype="field" datatype="literal">volumes</bcf:field>
-      <bcf:field fieldtype="field" datatype="literal" label="true">shorthand</bcf:field>
-      <bcf:field fieldtype="field" datatype="literal" label="true">shortjournal</bcf:field>
-      <bcf:field fieldtype="field" datatype="literal" label="true">shortseries</bcf:field>
-      <bcf:field fieldtype="field" datatype="literal" label="true">shorttitle</bcf:field>
       <bcf:field fieldtype="field" datatype="datepart" nullok="true">urlendyear</bcf:field>
       <bcf:field fieldtype="field" datatype="datepart" nullok="true">endyear</bcf:field>
       <bcf:field fieldtype="field" datatype="datepart" nullok="true">eventendyear</bcf:field>
@@ -810,9 +806,9 @@
       <bcf:field fieldtype="list" datatype="name">namea</bcf:field>
       <bcf:field fieldtype="list" datatype="name">nameb</bcf:field>
       <bcf:field fieldtype="list" datatype="name">namec</bcf:field>
+      <bcf:field fieldtype="list" datatype="name">shortauthor</bcf:field>
+      <bcf:field fieldtype="list" datatype="name">shorteditor</bcf:field>
       <bcf:field fieldtype="list" datatype="name">translator</bcf:field>
-      <bcf:field fieldtype="list" datatype="name" label="true">shortauthor</bcf:field>
-      <bcf:field fieldtype="list" datatype="name" label="true">shorteditor</bcf:field>
       <bcf:field fieldtype="list" datatype="name" skip_output="true">sortname</bcf:field>
       <bcf:field fieldtype="field" datatype="key">authortype</bcf:field>
       <bcf:field fieldtype="field" datatype="key">editoratype</bcf:field>
@@ -841,13 +837,13 @@
       <bcf:field fieldtype="field" datatype="verbatim">verbb</bcf:field>
       <bcf:field fieldtype="field" datatype="verbatim">verbc</bcf:field>
       <bcf:field fieldtype="field" datatype="uri">url</bcf:field>
-      <bcf:field fieldtype="field" format="xsv" datatype="entrykey" skip_output="true">xdata</bcf:field>
-      <bcf:field fieldtype="field" format="xsv" datatype="entrykey" skip_output="true">ids</bcf:field>
-      <bcf:field fieldtype="field" format="xsv" datatype="entrykey" skip_output="true">entryset</bcf:field>
-      <bcf:field fieldtype="field" format="xsv" datatype="entrykey">related</bcf:field>
-      <bcf:field fieldtype="field" format="xsv" datatype="keyword">keywords</bcf:field>
-      <bcf:field fieldtype="field" format="xsv" datatype="option" skip_output="true">options</bcf:field>
-      <bcf:field fieldtype="field" format="xsv" datatype="option" skip_output="true">relatedoptions</bcf:field>
+      <bcf:field fieldtype="field" format="csv" datatype="entrykey" skip_output="true">xdata</bcf:field>
+      <bcf:field fieldtype="field" format="csv" datatype="entrykey" skip_output="true">ids</bcf:field>
+      <bcf:field fieldtype="field" format="csv" datatype="entrykey" skip_output="true">entryset</bcf:field>
+      <bcf:field fieldtype="field" format="csv" datatype="entrykey">related</bcf:field>
+      <bcf:field fieldtype="field" format="csv" datatype="keyword">keywords</bcf:field>
+      <bcf:field fieldtype="field" format="csv" datatype="option" skip_output="true">options</bcf:field>
+      <bcf:field fieldtype="field" format="csv" datatype="option" skip_output="true">relatedoptions</bcf:field>
       <bcf:field fieldtype="field" datatype="range">pages</bcf:field>
       <bcf:field fieldtype="field" datatype="code">execute</bcf:field>
       <bcf:field fieldtype="list" datatype="name">with</bcf:field>
@@ -2079,13 +2075,12 @@
   <!-- CITATION DATA -->
   <!-- SECTION 0 -->
   <bcf:bibdata section="0">
-    <bcf:datasource type="file" datatype="bibtex">../../MASTERBIB/AuthorIDs.bib</bcf:datasource>
     <bcf:datasource type="file" datatype="bibtex">crcox_publications.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
     <bcf:citekey order="0">*</bcf:citekey>
   </bcf:section>
-  <bcf:sortlist section="0" name="ydnt" type="entry" sortscheme="ydnt">
+  <bcf:sortlist section="0" type="entry" label="ydnt">
   <bcf:sorting>
     <bcf:sort order="1">
       <bcf:sortitem order="1">presort</bcf:sortitem>
@@ -2112,7 +2107,7 @@
     </bcf:sort>
   </bcf:sorting>
   </bcf:sortlist>
-  <bcf:sortlist section="0" name="ydnt" type="entry" sortscheme="ydnt">
+  <bcf:sortlist section="0" type="entry" label="ydnt">
   <bcf:sorting>
     <bcf:sort order="1">
       <bcf:sortitem order="1">presort</bcf:sortitem>
@@ -2139,34 +2134,7 @@
     </bcf:sort>
   </bcf:sorting>
   </bcf:sortlist>
-  <bcf:sortlist section="0" name="ydnt" type="entry" sortscheme="ydnt">
-  <bcf:sorting>
-    <bcf:sort order="1">
-      <bcf:sortitem order="1">presort</bcf:sortitem>
-    </bcf:sort>
-    <bcf:sort order="2" final="1">
-      <bcf:sortitem order="1">sortkey</bcf:sortitem>
-    </bcf:sort>
-    <bcf:sort order="3" sort_direction="descending">
-      <bcf:sortitem order="1" substring_side="left" substring_width="4">sortyear</bcf:sortitem>
-      <bcf:sortitem order="2" substring_side="left" substring_width="4">year</bcf:sortitem>
-      <bcf:sortitem order="3">9999</bcf:sortitem>
-    </bcf:sort>
-    <bcf:sort order="4">
-      <bcf:sortitem order="1">sortname</bcf:sortitem>
-      <bcf:sortitem order="2">author</bcf:sortitem>
-      <bcf:sortitem order="3">editor</bcf:sortitem>
-      <bcf:sortitem order="4">translator</bcf:sortitem>
-      <bcf:sortitem order="5">sorttitle</bcf:sortitem>
-      <bcf:sortitem order="6">title</bcf:sortitem>
-    </bcf:sort>
-    <bcf:sort order="5">
-      <bcf:sortitem order="1">sorttitle</bcf:sortitem>
-      <bcf:sortitem order="2">title</bcf:sortitem>
-    </bcf:sort>
-  </bcf:sorting>
-  </bcf:sortlist>
-  <bcf:sortlist section="0" name="ydnt" type="entry" sortscheme="ydnt">
+  <bcf:sortlist section="0" type="entry" label="ydnt">
   <bcf:sorting>
     <bcf:sort order="1">
       <bcf:sortitem order="1">presort</bcf:sortitem>
