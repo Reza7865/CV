@@ -39,23 +39,33 @@
 %\makeatother
 %\renewcommand*{\bibliographyitemlabel}{[\arabic{enumiv}]} % CONSIDER REPLACING THE ABOVE BY THIS
 
+\renewcommand*{\mkbibnamegiven}[1]{%
+  \ifitemannotation{highlight}
+    {\textbf{#1}}
+    {#1}}
 
+\renewcommand*{\mkbibnamefamily}[1]{%
+  \ifitemannotation{highlight}
+    {\textbf{#1}}
+    {#1}}
 
 %----------------------------------------------------------------------------------
 %            content
 %----------------------------------------------------------------------------------
 \begin{document}
 
-\makecvtitle
+\makecvtitle{}
 
 \section{Education}
-\cventry{2011}{M.S. Cognitive Psychology}{University of Wisconsin}{Madison}{}{}  % arguments 3 to 6 can be left empty
+\cventry{2016}{PhD Cognitive Psychology}{University of Wisconsin-Madison}{}{}{}
+\cventry{2011}{M.S. Cognitive Psychology}{University of Wisconsin-Madison}{}{}{}  % arguments 3 to 6 can be left empty
 \cventry{2009}{B.S. Psychology}{DePaul University}{Chicago, IL}{\textit{Magna cum Laude}}{}
 \cventry{2009}{B.A. Economics}{DePaul University}{Chicago, IL}{\textit{Magna cum Laude}}{}
 
 \section{Professional Experience}
 \subsection{Research Experience}
-\cventry{2010--present}{Graduate Student}{Advisors: Timothy T. Rogers and Mark S. Seidenberg, University of Wisconsin}{Madison, WI}{}{}
+\cventry{2016--present}{Post Doc}{Working with Matthew Lambon Ralph in the Neuroscience and Aphasia Research Unit}{University of Manchester, UK}{}{}
+\cventry{2010--2016}{Graduate Student}{Advisors: Timothy T. Rogers and Mark S. Seidenberg, University of Wisconsin}{Madison, WI}{}{}
 \cventry{2009--2010}{Operations Research Analyst}{TRADOC, US Department of Defense}{White Sands, NM}{}{}
 \cventry{2007--2009}{Research Assistant}{Supervisor: Pablo Gomez, DePaul University}{Chicago, IL}{}{}
 
@@ -79,7 +89,7 @@ Maryellen MacDonald.}
 Infrastructure for Scalable Computing in Neuroscience (NSF 1649759)}{Helped draft and
 co-author this grant. I am appointed to the organizing committee for the funded workshops.
 \$50,000}{}{}{}
-\cventry{2015}{NRT-DESE LUCID: A project-focused cross-disciplinary graduate training
+\cventry{2015}{NRT-DESE LUCID\@: A project-focused cross-disciplinary graduate training
 program for data-enabled research in human and machine learning and teaching (NSF
 1545481)}{Helped research and pull together supplementary data needed for the submission.
 \$3,000,000}{}{}{}

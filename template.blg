@@ -1,23 +1,13 @@
-[0] Config.pm:327> INFO - This is Biber 2.3
-[1] Config.pm:330> INFO - Logfile is 'template.blg'
-[61] biber:287> INFO - === Wed Sep 28, 2016, 22:24:06
-[88] Biber.pm:346> INFO - Reading 'template.bcf'
-[239] Biber.pm:686> INFO - Using all citekeys in bib section 0
-[250] Biber.pm:3066> INFO - Processing section 0
-[270] Biber.pm:3206> INFO - Looking for bibtex format file 'crcox_publications.bib' for section 0
-[272] bibtex.pm:1062> INFO - Decoding LaTeX character macros into UTF-8
-[275] bibtex.pm:923> INFO - Found BibTeX data source 'crcox_publications.bib'
-[314] Utils.pm:147> WARN - The field 'doi' in entry 'Kattner2016TransferInCategoryLearning' cannot be null, deleting it
-[315] Utils.pm:147> WARN - The field 'number' in entry 'Kattner2016TransferInCategoryLearning' cannot be null, deleting it
-[315] Utils.pm:147> WARN - The field 'pages' in entry 'Kattner2016TransferInCategoryLearning' cannot be null, deleting it
-[315] Utils.pm:147> WARN - The field 'volume' in entry 'Kattner2016TransferInCategoryLearning' cannot be null, deleting it
-[315] Utils.pm:147> WARN - The field 'doi' in entry 'Oswal2016NRSA' cannot be null, deleting it
-[315] Utils.pm:147> WARN - The field 'number' in entry 'Oswal2016NRSA' cannot be null, deleting it
-[316] Utils.pm:147> WARN - The field 'volume' in entry 'Oswal2016NRSA' cannot be null, deleting it
-[664] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[665] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[665] Biber.pm:2943> INFO - Sorting list 'ydnt' of type 'entry' with scheme 'ydnt' and locale 'en-US'
-[665] Biber.pm:2947> INFO - No sort tailoring available for locale 'en-US'
-[717] bbl.pm:505> INFO - Writing 'template.bbl' with encoding 'ascii'
-[723] bbl.pm:596> INFO - Output to template.bbl
-[723] Biber.pm:107> INFO - WARNINGS: 7
+[0] Config.pm:318> INFO - This is Biber 1.8
+[0] Config.pm:321> INFO - Logfile is 'template.blg'
+[112] biber-darwin:275> INFO - === Sun Jan 29, 2017, 18:34:53
+[112] Biber.pm:333> INFO - Reading 'template.bcf'
+[230] Biber.pm:607> INFO - Using all citekeys in bib section 0
+[265] Biber.pm:3053> INFO - Processing section 0
+[296] Biber.pm:3190> INFO - Looking for bibtex format file 'crcox_publications.bib' for section 0
+[299] bibtex.pm:812> INFO - Found BibTeX data source 'crcox_publications.bib'
+[459] Biber.pm:2939> INFO - Overriding locale 'en_US.UTF-8' default tailoring 'variable = shifted' with 'variable = non-ignorable'
+[459] Biber.pm:2945> INFO - Sorting 'entry' list 'ydnt' keys
+[459] Biber.pm:2949> INFO - No sort tailoring available for locale 'en_US.UTF-8'
+[539] bbl.pm:482> INFO - Writing 'template.bbl' with encoding 'ascii'
+[547] bbl.pm:555> INFO - Output to template.bbl
