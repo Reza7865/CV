@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  10 FEB 2017 15:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  10 FEB 2017 15:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1076,7 +1076,7 @@ Package logreq Info: Writing requests to 'template.run.xml'.
 Here is how much of TeX's memory you used:
  26709 strings out of 493014
  455850 string characters out of 6133351
- 926515 words of memory out of 5000000
+ 926673 words of memory out of 5000000
  29892 multiletter control sequences out of 15000+600000
  57953 words of font info for 73 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1091,10 +1091,10 @@ texmf-dist/fonts/type1/public/lm/lmss10.pfb></usr/local/texlive/2016/texmf-dist
 e1/public/lm/lmss17.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/
 lm/lmssbx10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmsso
 10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmsy10.pfb>
-Output written on template.pdf (4 pages, 183038 bytes).
+Output written on template.pdf (4 pages, 181894 bytes).
 PDF statistics:
- 173 PDF objects out of 1000 (max. 8388607)
- 148 compressed objects within 2 object streams
+ 169 PDF objects out of 1000 (max. 8388607)
+ 144 compressed objects within 2 object streams
  37 named destinations out of 1000 (max. 500000)
  20081 words of extra memory for PDF output out of 20736 (max. 10000000)
 
