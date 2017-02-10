@@ -1,5 +1,5 @@
 % $ biblatex auxiliary file $
-% $ biblatex bbl format version 2.3 $
+% $ biblatex bbl format version 2.7 $
 % Do not modify the above lines!
 %
 % This is an auxiliary file used by the 'biblatex' package.
@@ -18,242 +18,371 @@
 
 
 \refsection{0}
-  \sortlist{entry}{ydnt}
+  \sortlist[entry]{ydnt/global/}
     \entry{Cox_TakingDistRepsSeriously}{article}{}
-      \name{labelname}{2}{}{%
-        {{hash=f07902f96e5e1e92fabe02eaa77863ba}{Cox}{C\bibinitperiod}{Christopher\bibnamedelima R.}{C\bibinitperiod}{}{}{}{}}%
-        {{hash=a50eaab683052cc5692578a35854e7c5}{Rogers}{R\bibinitperiod}{Timothy\bibnamedelima T.}{T\bibinitperiod\bibinitdelim T\bibinitperiod}{}{}{}{}}%
-      }
       \name{author}{2}{}{%
-        {{hash=f07902f96e5e1e92fabe02eaa77863ba}{Cox}{C\bibinitperiod}{Christopher\bibnamedelima R.}{C\bibinitperiod}{}{}{}{}}%
-        {{hash=a50eaab683052cc5692578a35854e7c5}{Rogers}{R\bibinitperiod}{Timothy\bibnamedelima T.}{T\bibinitperiod\bibinitdelim T\bibinitperiod}{}{}{}{}}%
+        {{hash=f07902f96e5e1e92fabe02eaa77863ba}{%
+           family={Cox},
+           family_i={C\bibinitperiod},
+           given={Christopher\bibnamedelima R.},
+           given_i={C\bibinitperiod}}}%
+        {{hash=a50eaab683052cc5692578a35854e7c5}{%
+           family={Rogers},
+           family_i={R\bibinitperiod},
+           given={Timothy\bibnamedelima T.},
+           given_i={T\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
       }
       \strng{namehash}{659dc0e724c174beb9f1727877fd77fd}
       \strng{fullhash}{659dc0e724c174beb9f1727877fd77fd}
-      \field{sortinit}{u}
-      \field{labelyear}{under review}
+      \field{sortinit}{i}
+      \field{sortinithash}{25e99d37ba90f7c4fb20baf4e310faf3}
+      \field{labelyear}{in prep}
       \field{datelabelsource}{year}
-      \field{labeltitle}{Taking distributed representations seriously in functional brain imaging}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
       \field{journaltitle}{Journal of Cognitive Neuroscience}
       \field{title}{Taking distributed representations seriously in functional brain imaging}
-      \field{year}{under review}
+      \field{year}{in prep}
       \keyw{article}
+      \annotation{item}{author}{1}{}{highlight}
     \endentry
     \entry{Kattner2016b}{article}{}
-      \name{labelname}{5}{uniquelist=2}{%
-        {{hash=710e89795226320263adf032ad752f80}{Kattner}{K\bibinitperiod}{Florian}{F\bibinitperiod}{}{}{}{}}%
-        {{hash=919fe553520e413e7c5d9a2f3ba7ea8d}{Cochrane}{C\bibinitperiod}{Aaron}{A\bibinitperiod}{}{}{}{}}%
-        {{hash=f07902f96e5e1e92fabe02eaa77863ba}{Cox}{C\bibinitperiod}{Christopher\bibnamedelima R.}{C\bibinitperiod}{}{}{}{}}%
-        {{hash=817d74b0c4d4d108d25e8d9666c6b900}{Gorman}{G\bibinitperiod}{Thomas\bibnamedelima E.}{T\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
-        {{hash=3f6b1376b868e98073f294cb66386f69}{Green}{G\bibinitperiod}{C.\bibnamedelimi Shawn}{C\bibinitperiod\bibinitdelim S\bibinitperiod}{}{}{}{}}%
+      \name{author}{5}{}{%
+        {{hash=710e89795226320263adf032ad752f80}{%
+           family={Kattner},
+           family_i={K\bibinitperiod},
+           given={Florian},
+           given_i={F\bibinitperiod}}}%
+        {{hash=919fe553520e413e7c5d9a2f3ba7ea8d}{%
+           family={Cochrane},
+           family_i={C\bibinitperiod},
+           given={Aaron},
+           given_i={A\bibinitperiod}}}%
+        {{hash=f07902f96e5e1e92fabe02eaa77863ba}{%
+           family={Cox},
+           family_i={C\bibinitperiod},
+           given={Christopher\bibnamedelima R.},
+           given_i={C\bibinitperiod}}}%
+        {{hash=817d74b0c4d4d108d25e8d9666c6b900}{%
+           family={Gorman},
+           family_i={G\bibinitperiod},
+           given={Thomas\bibnamedelima E.},
+           given_i={T\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=3f6b1376b868e98073f294cb66386f69}{%
+           family={Green},
+           family_i={G\bibinitperiod},
+           given={C.\bibnamedelimi Shawn},
+           given_i={C\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
       }
-      \name{author}{5}{uniquelist=2}{%
-        {{hash=710e89795226320263adf032ad752f80}{Kattner}{K\bibinitperiod}{Florian}{F\bibinitperiod}{}{}{}{}}%
-        {{hash=919fe553520e413e7c5d9a2f3ba7ea8d}{Cochrane}{C\bibinitperiod}{Aaron}{A\bibinitperiod}{}{}{}{}}%
-        {{hash=f07902f96e5e1e92fabe02eaa77863ba}{Cox}{C\bibinitperiod}{Christopher\bibnamedelima R.}{C\bibinitperiod}{}{}{}{}}%
-        {{hash=817d74b0c4d4d108d25e8d9666c6b900}{Gorman}{G\bibinitperiod}{Thomas\bibnamedelima E.}{T\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
-        {{hash=3f6b1376b868e98073f294cb66386f69}{Green}{G\bibinitperiod}{C.\bibnamedelimi Shawn}{C\bibinitperiod\bibinitdelim S\bibinitperiod}{}{}{}{}}%
-      }
-      \strng{namehash}{a5448cd151d6b4c9aeaa51356fd3b5bd}
+      \strng{namehash}{bb5d22579ff8020340ca28b0f98d93f7}
       \strng{fullhash}{069ebd63ad806783268d22b48e88ff22}
       \field{sortinit}{i}
+      \field{sortinithash}{25e99d37ba90f7c4fb20baf4e310faf3}
       \field{labelyear}{in press}
       \field{datelabelsource}{year}
-      \field{labeltitle}{Perceptual Learning Generalization from Sequential Perceptual Training as a Change in Learning Rate}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
       \field{journaltitle}{Current Biology}
       \field{title}{Perceptual Learning Generalization from Sequential Perceptual Training as a Change in Learning Rate}
       \field{year}{in press}
       \keyw{article}
-    \endentry
-    \entry{Kattner2016TransferInCategoryLearning}{article}{}
-      \name{labelname}{3}{uniquelist=2}{%
-        {{hash=710e89795226320263adf032ad752f80}{Kattner}{K\bibinitperiod}{Florian}{F\bibinitperiod}{}{}{}{}}%
-        {{hash=f07902f96e5e1e92fabe02eaa77863ba}{Cox}{C\bibinitperiod}{Christopher\bibnamedelima R.}{C\bibinitperiod}{}{}{}{}}%
-        {{hash=3f6b1376b868e98073f294cb66386f69}{Green}{G\bibinitperiod}{C.\bibnamedelimi Shawn}{C\bibinitperiod\bibinitdelim S\bibinitperiod}{}{}{}{}}%
-      }
-      \name{author}{3}{uniquelist=2}{%
-        {{hash=710e89795226320263adf032ad752f80}{Kattner}{K\bibinitperiod}{Florian}{F\bibinitperiod}{}{}{}{}}%
-        {{hash=f07902f96e5e1e92fabe02eaa77863ba}{Cox}{C\bibinitperiod}{Christopher\bibnamedelima R.}{C\bibinitperiod}{}{}{}{}}%
-        {{hash=3f6b1376b868e98073f294cb66386f69}{Green}{G\bibinitperiod}{C.\bibnamedelimi Shawn}{C\bibinitperiod\bibinitdelim S\bibinitperiod}{}{}{}{}}%
-      }
-      \strng{namehash}{60c601cf966dac0e47fa31e18acb143c}
-      \strng{fullhash}{9a9ad2fc208cdd8d21c4505c5edfa76b}
-      \field{sortinit}{i}
-      \field{labelyear}{in press}
-      \field{datelabelsource}{year}
-      \field{labeltitle}{Transfer in Category Learning Depends on the Training Task}
-      \field{journaltitle}{PLOS ONE}
-      \field{title}{Transfer in Category Learning Depends on the Training Task}
-      \field{year}{in press}
-      \keyw{article}
+      \annotation{item}{author}{3}{}{highlight}
     \endentry
     \entry{cox_CNS_2016}{misc}{}
-      \name{labelname}{5}{}{%
-        {{hash=f07902f96e5e1e92fabe02eaa77863ba}{Cox}{C\bibinitperiod}{Christopher\bibnamedelima R.}{C\bibinitperiod}{}{}{}{}}%
-        {{hash=db9b8c4b8e3576a8c956fe1893eff4a0}{Oswall}{O\bibinitperiod}{Urvashi}{U\bibinitperiod}{}{}{}{}}%
-        {{hash=1c8be568ced30f05c799acb227ecb677}{{Lambon\bibnamedelimb Ralph}}{L\bibinitperiod}{Matthew\bibnamedelima A.}{M\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
-        {{hash=a50eaab683052cc5692578a35854e7c5}{Rogers}{R\bibinitperiod}{Timothy\bibnamedelima T.}{T\bibinitperiod\bibinitdelim T\bibinitperiod}{}{}{}{}}%
-        {{hash=19b2280a6a0d42ce384e6d83eab513c1}{Nowak}{N\bibinitperiod}{Robert}{R\bibinitperiod}{}{}{}{}}%
-      }
       \name{author}{5}{}{%
-        {{hash=f07902f96e5e1e92fabe02eaa77863ba}{Cox}{C\bibinitperiod}{Christopher\bibnamedelima R.}{C\bibinitperiod}{}{}{}{}}%
-        {{hash=db9b8c4b8e3576a8c956fe1893eff4a0}{Oswall}{O\bibinitperiod}{Urvashi}{U\bibinitperiod}{}{}{}{}}%
-        {{hash=1c8be568ced30f05c799acb227ecb677}{{Lambon\bibnamedelimb Ralph}}{L\bibinitperiod}{Matthew\bibnamedelima A.}{M\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
-        {{hash=a50eaab683052cc5692578a35854e7c5}{Rogers}{R\bibinitperiod}{Timothy\bibnamedelima T.}{T\bibinitperiod\bibinitdelim T\bibinitperiod}{}{}{}{}}%
-        {{hash=19b2280a6a0d42ce384e6d83eab513c1}{Nowak}{N\bibinitperiod}{Robert}{R\bibinitperiod}{}{}{}{}}%
+        {{hash=f07902f96e5e1e92fabe02eaa77863ba}{%
+           family={Cox},
+           family_i={C\bibinitperiod},
+           given={Christopher\bibnamedelima R.},
+           given_i={C\bibinitperiod}}}%
+        {{hash=bd98c2112d84524f8910b547d5496d43}{%
+           family={Oswal},
+           family_i={O\bibinitperiod},
+           given={Urvashi},
+           given_i={U\bibinitperiod}}}%
+        {{hash=1c8be568ced30f05c799acb227ecb677}{%
+           family={{Lambon Ralph}},
+           family_i={L\bibinitperiod},
+           given={Matthew\bibnamedelima A.},
+           given_i={M\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=a50eaab683052cc5692578a35854e7c5}{%
+           family={Rogers},
+           family_i={R\bibinitperiod},
+           given={Timothy\bibnamedelima T.},
+           given_i={T\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+        {{hash=19b2280a6a0d42ce384e6d83eab513c1}{%
+           family={Nowak},
+           family_i={N\bibinitperiod},
+           given={Robert},
+           given_i={R\bibinitperiod}}}%
       }
       \strng{namehash}{503551788fad77b6464cf1db6a452c97}
-      \strng{fullhash}{14aa270af1d8fd2b562e8f90bcc616ab}
+      \strng{fullhash}{381e118e855ef50002cb9905750054d2}
       \field{sortinit}{2}
+      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
       \field{labelyear}{2016}
       \field{datelabelsource}{year}
-      \field{labeltitle}{Network representational similarity analysis of visual and semantic structure}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
       \field{howpublished}{Poster presented at the 23st meeting of the Cognitive Neuroscience Society, New York, NY}
       \field{title}{Network representational similarity analysis of visual and semantic structure}
       \field{year}{2016}
       \keyw{poster}
+      \annotation{item}{author}{1}{}{highlight}
     \endentry
-    \entry{Oswal2016NRSA}{article}{}
-      \name{labelname}{5}{}{%
-        {{hash=db9b8c4b8e3576a8c956fe1893eff4a0}{Oswall}{O\bibinitperiod}{Urvashi}{U\bibinitperiod}{}{}{}{}}%
-        {{hash=f07902f96e5e1e92fabe02eaa77863ba}{Cox}{C\bibinitperiod}{Christopher\bibnamedelima R.}{C\bibinitperiod}{}{}{}{}}%
-        {{hash=1c8be568ced30f05c799acb227ecb677}{{Lambon\bibnamedelimb Ralph}}{L\bibinitperiod}{Matthew\bibnamedelima A.}{M\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
-        {{hash=a50eaab683052cc5692578a35854e7c5}{Rogers}{R\bibinitperiod}{Timothy\bibnamedelima T.}{T\bibinitperiod\bibinitdelim T\bibinitperiod}{}{}{}{}}%
-        {{hash=19b2280a6a0d42ce384e6d83eab513c1}{Nowak}{N\bibinitperiod}{Robert}{R\bibinitperiod}{}{}{}{}}%
+    \entry{Kattner2016TransferInCategoryLearning}{article}{}
+      \name{author}{3}{}{%
+        {{hash=710e89795226320263adf032ad752f80}{%
+           family={Kattner},
+           family_i={K\bibinitperiod},
+           given={Florian},
+           given_i={F\bibinitperiod}}}%
+        {{hash=f07902f96e5e1e92fabe02eaa77863ba}{%
+           family={Cox},
+           family_i={C\bibinitperiod},
+           given={Christopher\bibnamedelima R.},
+           given_i={C\bibinitperiod}}}%
+        {{hash=3f6b1376b868e98073f294cb66386f69}{%
+           family={Green},
+           family_i={G\bibinitperiod},
+           given={C.\bibnamedelimi Shawn},
+           given_i={C\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
       }
-      \name{author}{5}{}{%
-        {{hash=db9b8c4b8e3576a8c956fe1893eff4a0}{Oswall}{O\bibinitperiod}{Urvashi}{U\bibinitperiod}{}{}{}{}}%
-        {{hash=f07902f96e5e1e92fabe02eaa77863ba}{Cox}{C\bibinitperiod}{Christopher\bibnamedelima R.}{C\bibinitperiod}{}{}{}{}}%
-        {{hash=1c8be568ced30f05c799acb227ecb677}{{Lambon\bibnamedelimb Ralph}}{L\bibinitperiod}{Matthew\bibnamedelima A.}{M\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
-        {{hash=a50eaab683052cc5692578a35854e7c5}{Rogers}{R\bibinitperiod}{Timothy\bibnamedelima T.}{T\bibinitperiod\bibinitdelim T\bibinitperiod}{}{}{}{}}%
-        {{hash=19b2280a6a0d42ce384e6d83eab513c1}{Nowak}{N\bibinitperiod}{Robert}{R\bibinitperiod}{}{}{}{}}%
-      }
-      \strng{namehash}{2eac04eb7f08f407657a8ef85a4ee882}
-      \strng{fullhash}{78d3a5d8b16cdbc2ec3773dae6fb2f66}
+      \strng{namehash}{bb5d22579ff8020340ca28b0f98d93f7}
+      \strng{fullhash}{9a9ad2fc208cdd8d21c4505c5edfa76b}
       \field{sortinit}{2}
+      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
       \field{labelyear}{2016}
       \field{datelabelsource}{year}
-      \field{labeltitle}{Representational Similarity Learning with Application to Brain Networks}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{PLOS ONE}
+      \field{title}{Transfer in Category Learning Depends on the Training Task}
+      \field{year}{2016}
+      \keyw{article}
+      \annotation{item}{author}{2}{}{highlight}
+    \endentry
+    \entry{Oswal2016NRSA}{article}{}
+      \name{author}{5}{}{%
+        {{hash=bd98c2112d84524f8910b547d5496d43}{%
+           family={Oswal},
+           family_i={O\bibinitperiod},
+           given={Urvashi},
+           given_i={U\bibinitperiod}}}%
+        {{hash=f07902f96e5e1e92fabe02eaa77863ba}{%
+           family={Cox},
+           family_i={C\bibinitperiod},
+           given={Christopher\bibnamedelima R.},
+           given_i={C\bibinitperiod}}}%
+        {{hash=1c8be568ced30f05c799acb227ecb677}{%
+           family={{Lambon Ralph}},
+           family_i={L\bibinitperiod},
+           given={Matthew\bibnamedelima A.},
+           given_i={M\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=a50eaab683052cc5692578a35854e7c5}{%
+           family={Rogers},
+           family_i={R\bibinitperiod},
+           given={Timothy\bibnamedelima T.},
+           given_i={T\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+        {{hash=19b2280a6a0d42ce384e6d83eab513c1}{%
+           family={Nowak},
+           family_i={N\bibinitperiod},
+           given={Robert},
+           given_i={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{021fc8e63463e3d8bdf14b104a34b83a}
+      \strng{fullhash}{35700c2bc2213b1b4cb980987837590c}
+      \field{sortinit}{2}
+      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
+      \field{labelyear}{2016}
+      \field{datelabelsource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
       \field{journaltitle}{Proceedings of The 33rd International Conference on Machine Learning}
       \field{title}{Representational Similarity Learning with Application to Brain Networks}
       \field{year}{2016}
       \field{pages}{1041\bibrangedash 1049}
+      \range{pages}{9}
       \keyw{article}
+      \annotation{item}{author}{2}{}{highlight}
     \endentry
     \entry{cox_WARF_2015}{misc}{}
-      \name{labelname}{8}{uniquelist=2}{%
-        {{hash=f07902f96e5e1e92fabe02eaa77863ba}{Cox}{C\bibinitperiod}{Christopher\bibnamedelima R.}{C\bibinitperiod}{}{}{}{}}%
-        {{hash=bb429b8cce0830925a01e551d68fa1ad}{Jain}{J\bibinitperiod}{Lalit}{L\bibinitperiod}{}{}{}{}}%
-        {{hash=3a3d912625cd020124a2e630b9488990}{Murphy}{M\bibinitperiod}{April}{A\bibinitperiod}{}{}{}{}}%
-        {{hash=240fa0e010cb30dc1e40c10157f58276}{Jamieson}{J\bibinitperiod}{Kevin}{K\bibinitperiod}{}{}{}{}}%
-        {{hash=3024af14eff747210c32a178ca3be71f}{Glattard}{G\bibinitperiod}{Nicholas}{N\bibinitperiod}{}{}{}{}}%
-        {{hash=5fee49b05d3115e9d082692344a52942}{Fernandez}{F\bibinitperiod}{Christopher}{C\bibinitperiod}{}{}{}{}}%
-        {{hash=19b2280a6a0d42ce384e6d83eab513c1}{Nowak}{N\bibinitperiod}{Robert}{R\bibinitperiod}{}{}{}{}}%
-        {{hash=a50eaab683052cc5692578a35854e7c5}{Rogers}{R\bibinitperiod}{Timothy\bibnamedelima T.}{T\bibinitperiod\bibinitdelim T\bibinitperiod}{}{}{}{}}%
-      }
       \name{author}{8}{uniquelist=2}{%
-        {{hash=f07902f96e5e1e92fabe02eaa77863ba}{Cox}{C\bibinitperiod}{Christopher\bibnamedelima R.}{C\bibinitperiod}{}{}{}{}}%
-        {{hash=bb429b8cce0830925a01e551d68fa1ad}{Jain}{J\bibinitperiod}{Lalit}{L\bibinitperiod}{}{}{}{}}%
-        {{hash=3a3d912625cd020124a2e630b9488990}{Murphy}{M\bibinitperiod}{April}{A\bibinitperiod}{}{}{}{}}%
-        {{hash=240fa0e010cb30dc1e40c10157f58276}{Jamieson}{J\bibinitperiod}{Kevin}{K\bibinitperiod}{}{}{}{}}%
-        {{hash=3024af14eff747210c32a178ca3be71f}{Glattard}{G\bibinitperiod}{Nicholas}{N\bibinitperiod}{}{}{}{}}%
-        {{hash=5fee49b05d3115e9d082692344a52942}{Fernandez}{F\bibinitperiod}{Christopher}{C\bibinitperiod}{}{}{}{}}%
-        {{hash=19b2280a6a0d42ce384e6d83eab513c1}{Nowak}{N\bibinitperiod}{Robert}{R\bibinitperiod}{}{}{}{}}%
-        {{hash=a50eaab683052cc5692578a35854e7c5}{Rogers}{R\bibinitperiod}{Timothy\bibnamedelima T.}{T\bibinitperiod\bibinitdelim T\bibinitperiod}{}{}{}{}}%
+        {{hash=f07902f96e5e1e92fabe02eaa77863ba}{%
+           family={Cox},
+           family_i={C\bibinitperiod},
+           given={Christopher\bibnamedelima R.},
+           given_i={C\bibinitperiod}}}%
+        {{hash=bb429b8cce0830925a01e551d68fa1ad}{%
+           family={Jain},
+           family_i={J\bibinitperiod},
+           given={Lalit},
+           given_i={L\bibinitperiod}}}%
+        {{hash=3a3d912625cd020124a2e630b9488990}{%
+           family={Murphy},
+           family_i={M\bibinitperiod},
+           given={April},
+           given_i={A\bibinitperiod}}}%
+        {{hash=240fa0e010cb30dc1e40c10157f58276}{%
+           family={Jamieson},
+           family_i={J\bibinitperiod},
+           given={Kevin},
+           given_i={K\bibinitperiod}}}%
+        {{hash=3024af14eff747210c32a178ca3be71f}{%
+           family={Glattard},
+           family_i={G\bibinitperiod},
+           given={Nicholas},
+           given_i={N\bibinitperiod}}}%
+        {{hash=5fee49b05d3115e9d082692344a52942}{%
+           family={Fernandez},
+           family_i={F\bibinitperiod},
+           given={Christopher},
+           given_i={C\bibinitperiod}}}%
+        {{hash=19b2280a6a0d42ce384e6d83eab513c1}{%
+           family={Nowak},
+           family_i={N\bibinitperiod},
+           given={Robert},
+           given_i={R\bibinitperiod}}}%
+        {{hash=a50eaab683052cc5692578a35854e7c5}{%
+           family={Rogers},
+           family_i={R\bibinitperiod},
+           given={Timothy\bibnamedelima T.},
+           given_i={T\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
       }
       \strng{namehash}{fe2e8941dcbb185b92c71398a4456bc2}
       \strng{fullhash}{8c0f4fa137a402423d7cdcf5e0dcf035}
       \field{sortinit}{2}
+      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
       \field{labelyear}{2015}
       \field{datelabelsource}{year}
-      \field{labeltitle}{{NEXT}: Accelerating the Pace of Scientific Discovery}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
       \field{howpublished}{Poster presented at 4th Wisconsin Alumni Research Foundation Discovery Challenge, Madison, WI}
       \field{title}{{NEXT}: Accelerating the Pace of Scientific Discovery}
       \field{year}{2015}
       \keyw{poster}
+      \annotation{item}{author}{1}{}{highlight}
     \endentry
     \entry{cox_CNS_2015}{misc}{}
-      \name{labelname}{3}{uniquelist=2}{%
-        {{hash=f07902f96e5e1e92fabe02eaa77863ba}{Cox}{C\bibinitperiod}{Christopher\bibnamedelima R.}{C\bibinitperiod}{}{}{}{}}%
-        {{hash=2a9621a8800b983e5df88964ca514a24}{Lu}{L\bibinitperiod}{Qihong}{Q\bibinitperiod}{}{}{}{}}%
-        {{hash=a50eaab683052cc5692578a35854e7c5}{Rogers}{R\bibinitperiod}{Timothy\bibnamedelima T.}{T\bibinitperiod\bibinitdelim T\bibinitperiod}{}{}{}{}}%
-      }
       \name{author}{3}{uniquelist=2}{%
-        {{hash=f07902f96e5e1e92fabe02eaa77863ba}{Cox}{C\bibinitperiod}{Christopher\bibnamedelima R.}{C\bibinitperiod}{}{}{}{}}%
-        {{hash=2a9621a8800b983e5df88964ca514a24}{Lu}{L\bibinitperiod}{Qihong}{Q\bibinitperiod}{}{}{}{}}%
-        {{hash=a50eaab683052cc5692578a35854e7c5}{Rogers}{R\bibinitperiod}{Timothy\bibnamedelima T.}{T\bibinitperiod\bibinitdelim T\bibinitperiod}{}{}{}{}}%
+        {{hash=f07902f96e5e1e92fabe02eaa77863ba}{%
+           family={Cox},
+           family_i={C\bibinitperiod},
+           given={Christopher\bibnamedelima R.},
+           given_i={C\bibinitperiod}}}%
+        {{hash=2a9621a8800b983e5df88964ca514a24}{%
+           family={Lu},
+           family_i={L\bibinitperiod},
+           given={Qihong},
+           given_i={Q\bibinitperiod}}}%
+        {{hash=a50eaab683052cc5692578a35854e7c5}{%
+           family={Rogers},
+           family_i={R\bibinitperiod},
+           given={Timothy\bibnamedelima T.},
+           given_i={T\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
       }
       \strng{namehash}{03595774d2bcaf1777a9c49e675628b8}
       \strng{fullhash}{398f3f6412c8b95bd5950d853634325a}
       \field{sortinit}{2}
+      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
       \field{labelyear}{2015}
       \field{datelabelsource}{year}
-      \field{labeltitle}{Iterative {L}asso: {A}n even-handed approach to whole brain {MVPA}}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
       \field{howpublished}{Poster presented at the 22st meeting of the Cognitive Neuroscience Society, San Francisco, CA}
       \field{title}{Iterative {L}asso: {A}n even-handed approach to whole brain {MVPA}}
       \field{year}{2015}
       \keyw{poster}
+      \annotation{item}{author}{1}{}{highlight}
     \endentry
     \entry{Cox2015Connecting}{article}{}
-      \name{labelname}{3}{uniquelist=3}{%
-        {{hash=f07902f96e5e1e92fabe02eaa77863ba}{Cox}{C\bibinitperiod}{Christopher\bibnamedelima R.}{C\bibinitperiod}{}{}{}{}}%
-        {{hash=057438a8fcd151cf8fe181d9b575da2f}{Seidenberg}{S\bibinitperiod}{Mark\bibnamedelima S.}{M\bibinitperiod\bibinitdelim S\bibinitperiod}{}{}{}{}}%
-        {{hash=a50eaab683052cc5692578a35854e7c5}{Rogers}{R\bibinitperiod}{Timothy\bibnamedelima T.}{T\bibinitperiod\bibinitdelim T\bibinitperiod}{}{}{}{}}%
-      }
       \name{author}{3}{uniquelist=3}{%
-        {{hash=f07902f96e5e1e92fabe02eaa77863ba}{Cox}{C\bibinitperiod}{Christopher\bibnamedelima R.}{C\bibinitperiod}{}{}{}{}}%
-        {{hash=057438a8fcd151cf8fe181d9b575da2f}{Seidenberg}{S\bibinitperiod}{Mark\bibnamedelima S.}{M\bibinitperiod\bibinitdelim S\bibinitperiod}{}{}{}{}}%
-        {{hash=a50eaab683052cc5692578a35854e7c5}{Rogers}{R\bibinitperiod}{Timothy\bibnamedelima T.}{T\bibinitperiod\bibinitdelim T\bibinitperiod}{}{}{}{}}%
+        {{hash=f07902f96e5e1e92fabe02eaa77863ba}{%
+           family={Cox},
+           family_i={C\bibinitperiod},
+           given={Christopher\bibnamedelima R.},
+           given_i={C\bibinitperiod}}}%
+        {{hash=057438a8fcd151cf8fe181d9b575da2f}{%
+           family={Seidenberg},
+           family_i={S\bibinitperiod},
+           given={Mark\bibnamedelima S.},
+           given_i={M\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=a50eaab683052cc5692578a35854e7c5}{%
+           family={Rogers},
+           family_i={R\bibinitperiod},
+           given={Timothy\bibnamedelima T.},
+           given_i={T\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
       }
       \strng{namehash}{f40fdc666a415ae157677d3b495dde3e}
       \strng{fullhash}{f40fdc666a415ae157677d3b495dde3e}
       \field{sortinit}{2}
+      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
       \field{labelyear}{2015}
       \field{datelabelsource}{year}
-      \field{labeltitle}{Connecting functional brain imaging and Parallel Distributed Processing}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
       \field{journaltitle}{Language, Cognition and Neuroscience}
       \field{number}{4}
       \field{title}{Connecting functional brain imaging and Parallel Distributed Processing}
       \field{volume}{30}
       \field{year}{2015}
       \field{pages}{380\bibrangedash 394}
+      \range{pages}{15}
       \verb{doi}
       \verb 10.1080/23273798.2014.994010
       \endverb
       \keyw{article}
+      \annotation{item}{author}{1}{}{highlight}
     \endentry
     \entry{cox_neurowisc_2015}{misc}{}
-      \name{labelname}{4}{}{%
-        {{hash=bd98c2112d84524f8910b547d5496d43}{Oswal}{O\bibinitperiod}{Urvashi}{U\bibinitperiod}{}{}{}{}}%
-        {{hash=f07902f96e5e1e92fabe02eaa77863ba}{Cox}{C\bibinitperiod}{Christopher\bibnamedelima R.}{C\bibinitperiod}{}{}{}{}}%
-        {{hash=a50eaab683052cc5692578a35854e7c5}{Rogers}{R\bibinitperiod}{Timothy\bibnamedelima T.}{T\bibinitperiod\bibinitdelim T\bibinitperiod}{}{}{}{}}%
-        {{hash=19b2280a6a0d42ce384e6d83eab513c1}{Nowak}{N\bibinitperiod}{Robert}{R\bibinitperiod}{}{}{}{}}%
-      }
       \name{author}{4}{}{%
-        {{hash=bd98c2112d84524f8910b547d5496d43}{Oswal}{O\bibinitperiod}{Urvashi}{U\bibinitperiod}{}{}{}{}}%
-        {{hash=f07902f96e5e1e92fabe02eaa77863ba}{Cox}{C\bibinitperiod}{Christopher\bibnamedelima R.}{C\bibinitperiod}{}{}{}{}}%
-        {{hash=a50eaab683052cc5692578a35854e7c5}{Rogers}{R\bibinitperiod}{Timothy\bibnamedelima T.}{T\bibinitperiod\bibinitdelim T\bibinitperiod}{}{}{}{}}%
-        {{hash=19b2280a6a0d42ce384e6d83eab513c1}{Nowak}{N\bibinitperiod}{Robert}{R\bibinitperiod}{}{}{}{}}%
+        {{hash=bd98c2112d84524f8910b547d5496d43}{%
+           family={Oswal},
+           family_i={O\bibinitperiod},
+           given={Urvashi},
+           given_i={U\bibinitperiod}}}%
+        {{hash=f07902f96e5e1e92fabe02eaa77863ba}{%
+           family={Cox},
+           family_i={C\bibinitperiod},
+           given={Christopher\bibnamedelima R.},
+           given_i={C\bibinitperiod}}}%
+        {{hash=a50eaab683052cc5692578a35854e7c5}{%
+           family={Rogers},
+           family_i={R\bibinitperiod},
+           given={Timothy\bibnamedelima T.},
+           given_i={T\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+        {{hash=19b2280a6a0d42ce384e6d83eab513c1}{%
+           family={Nowak},
+           family_i={N\bibinitperiod},
+           given={Robert},
+           given_i={R\bibinitperiod}}}%
       }
       \strng{namehash}{021fc8e63463e3d8bdf14b104a34b83a}
       \strng{fullhash}{06ef0c59f6e44b22858241d37f1dc432}
       \field{sortinit}{2}
+      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
       \field{labelyear}{2015}
       \field{datelabelsource}{year}
-      \field{labeltitle}{Inferring brain activity through pairwise comparisons}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
       \field{howpublished}{Poster presented at the Neuro@Wisc workshop held in Madison, WI}
       \field{title}{Inferring brain activity through pairwise comparisons}
       \field{year}{2015}
       \keyw{poster}
+      \annotation{item}{author}{2}{}{highlight}
     \endentry
     \entry{rogers2015revisiting}{article}{}
-      \name{labelname}{2}{}{%
-        {{hash=a50eaab683052cc5692578a35854e7c5}{Rogers}{R\bibinitperiod}{Timothy\bibnamedelima T.}{T\bibinitperiod\bibinitdelim T\bibinitperiod}{}{}{}{}}%
-        {{hash=f07902f96e5e1e92fabe02eaa77863ba}{Cox}{C\bibinitperiod}{Christopher\bibnamedelima R.}{C\bibinitperiod}{}{}{}{}}%
-      }
       \name{author}{2}{}{%
-        {{hash=a50eaab683052cc5692578a35854e7c5}{Rogers}{R\bibinitperiod}{Timothy\bibnamedelima T.}{T\bibinitperiod\bibinitdelim T\bibinitperiod}{}{}{}{}}%
-        {{hash=f07902f96e5e1e92fabe02eaa77863ba}{Cox}{C\bibinitperiod}{Christopher\bibnamedelima R.}{C\bibinitperiod}{}{}{}{}}%
+        {{hash=a50eaab683052cc5692578a35854e7c5}{%
+           family={Rogers},
+           family_i={R\bibinitperiod},
+           given={Timothy\bibnamedelima T.},
+           given_i={T\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+        {{hash=f07902f96e5e1e92fabe02eaa77863ba}{%
+           family={Cox},
+           family_i={C\bibinitperiod},
+           given={Christopher\bibnamedelima R.},
+           given_i={C\bibinitperiod}}}%
       }
       \list{publisher}{1}{%
         {John Wiley \& Sons}%
@@ -261,58 +390,88 @@
       \strng{namehash}{3bb3eaed68656e2061ad3786fc6765e3}
       \strng{fullhash}{3bb3eaed68656e2061ad3786fc6765e3}
       \field{sortinit}{2}
+      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
       \field{labelyear}{2015}
       \field{datelabelsource}{year}
-      \field{labeltitle}{Revisiting a Golden Age Hypothesis in the Era of Cognitive Neuroscience}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
       \field{journaltitle}{The Wiley Handbook on The Cognitive Neuroscience of Memory}
       \field{title}{Revisiting a Golden Age Hypothesis in the Era of Cognitive Neuroscience}
       \field{year}{2015}
       \field{pages}{60}
+      \range{pages}{1}
       \keyw{chapter}
+      \annotation{item}{author}{2}{}{highlight}
     \endentry
     \entry{cox_CNS_2014}{misc}{}
-      \name{labelname}{4}{}{%
-        {{hash=f07902f96e5e1e92fabe02eaa77863ba}{Cox}{C\bibinitperiod}{Christopher\bibnamedelima R.}{C\bibinitperiod}{}{}{}{}}%
-        {{hash=3f22b953e343cefb687a8e57212835d9}{Rao}{R\bibinitperiod}{Nikhil}{N\bibinitperiod}{}{}{}{}}%
-        {{hash=19b2280a6a0d42ce384e6d83eab513c1}{Nowak}{N\bibinitperiod}{Robert}{R\bibinitperiod}{}{}{}{}}%
-        {{hash=a50eaab683052cc5692578a35854e7c5}{Rogers}{R\bibinitperiod}{Timothy\bibnamedelima T.}{T\bibinitperiod\bibinitdelim T\bibinitperiod}{}{}{}{}}%
-      }
       \name{author}{4}{}{%
-        {{hash=f07902f96e5e1e92fabe02eaa77863ba}{Cox}{C\bibinitperiod}{Christopher\bibnamedelima R.}{C\bibinitperiod}{}{}{}{}}%
-        {{hash=3f22b953e343cefb687a8e57212835d9}{Rao}{R\bibinitperiod}{Nikhil}{N\bibinitperiod}{}{}{}{}}%
-        {{hash=19b2280a6a0d42ce384e6d83eab513c1}{Nowak}{N\bibinitperiod}{Robert}{R\bibinitperiod}{}{}{}{}}%
-        {{hash=a50eaab683052cc5692578a35854e7c5}{Rogers}{R\bibinitperiod}{Timothy\bibnamedelima T.}{T\bibinitperiod\bibinitdelim T\bibinitperiod}{}{}{}{}}%
+        {{hash=f07902f96e5e1e92fabe02eaa77863ba}{%
+           family={Cox},
+           family_i={C\bibinitperiod},
+           given={Christopher\bibnamedelima R.},
+           given_i={C\bibinitperiod}}}%
+        {{hash=3f22b953e343cefb687a8e57212835d9}{%
+           family={Rao},
+           family_i={R\bibinitperiod},
+           given={Nikhil},
+           given_i={N\bibinitperiod}}}%
+        {{hash=19b2280a6a0d42ce384e6d83eab513c1}{%
+           family={Nowak},
+           family_i={N\bibinitperiod},
+           given={Robert},
+           given_i={R\bibinitperiod}}}%
+        {{hash=a50eaab683052cc5692578a35854e7c5}{%
+           family={Rogers},
+           family_i={R\bibinitperiod},
+           given={Timothy\bibnamedelima T.},
+           given_i={T\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
       }
       \strng{namehash}{503551788fad77b6464cf1db6a452c97}
       \strng{fullhash}{1a1263fcfe72d57833202e53b16e5759}
       \field{sortinit}{2}
+      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
       \field{labelyear}{2014}
       \field{datelabelsource}{year}
-      \field{labeltitle}{{SOS} {Lasso}: {A} new method for finding distributed representations in f{MRI} Data}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
       \field{howpublished}{Poster presented at the 21st meeting of the Cognitive Neuroscience Society, Boston, MA}
       \field{title}{{SOS} {Lasso}: {A} new method for finding distributed representations in f{MRI} Data}
       \field{year}{2014}
       \keyw{poster}
+      \annotation{item}{author}{1}{}{highlight}
     \endentry
     \entry{Rao2014StructuredSparsity}{article}{}
-      \name{labelname}{4}{}{%
-        {{hash=3f22b953e343cefb687a8e57212835d9}{Rao}{R\bibinitperiod}{Nikhil}{N\bibinitperiod}{}{}{}{}}%
-        {{hash=19b2280a6a0d42ce384e6d83eab513c1}{Nowak}{N\bibinitperiod}{Robert}{R\bibinitperiod}{}{}{}{}}%
-        {{hash=f07902f96e5e1e92fabe02eaa77863ba}{Cox}{C\bibinitperiod}{Christopher\bibnamedelima R.}{C\bibinitperiod}{}{}{}{}}%
-        {{hash=a50eaab683052cc5692578a35854e7c5}{Rogers}{R\bibinitperiod}{Timothy\bibnamedelima T.}{T\bibinitperiod\bibinitdelim T\bibinitperiod}{}{}{}{}}%
-      }
       \name{author}{4}{}{%
-        {{hash=3f22b953e343cefb687a8e57212835d9}{Rao}{R\bibinitperiod}{Nikhil}{N\bibinitperiod}{}{}{}{}}%
-        {{hash=19b2280a6a0d42ce384e6d83eab513c1}{Nowak}{N\bibinitperiod}{Robert}{R\bibinitperiod}{}{}{}{}}%
-        {{hash=f07902f96e5e1e92fabe02eaa77863ba}{Cox}{C\bibinitperiod}{Christopher\bibnamedelima R.}{C\bibinitperiod}{}{}{}{}}%
-        {{hash=a50eaab683052cc5692578a35854e7c5}{Rogers}{R\bibinitperiod}{Timothy\bibnamedelima T.}{T\bibinitperiod\bibinitdelim T\bibinitperiod}{}{}{}{}}%
+        {{hash=3f22b953e343cefb687a8e57212835d9}{%
+           family={Rao},
+           family_i={R\bibinitperiod},
+           given={Nikhil},
+           given_i={N\bibinitperiod}}}%
+        {{hash=19b2280a6a0d42ce384e6d83eab513c1}{%
+           family={Nowak},
+           family_i={N\bibinitperiod},
+           given={Robert},
+           given_i={R\bibinitperiod}}}%
+        {{hash=f07902f96e5e1e92fabe02eaa77863ba}{%
+           family={Cox},
+           family_i={C\bibinitperiod},
+           given={Christopher\bibnamedelima R.},
+           given_i={C\bibinitperiod}}}%
+        {{hash=a50eaab683052cc5692578a35854e7c5}{%
+           family={Rogers},
+           family_i={R\bibinitperiod},
+           given={Timothy\bibnamedelima T.},
+           given_i={T\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
       }
       \strng{namehash}{dcb080bd054abcd4d8055dbcc8746c5b}
       \strng{fullhash}{620a372d8d67beaa5221a3320b825671}
       \field{sortinit}{2}
+      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
       \field{labelyear}{2014}
       \field{datelabelsource}{year}
-      \field{labeltitle}{Logistic Regression with Structured Sparsity}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
       \field{journaltitle}{CoRR}
       \field{title}{Logistic Regression with Structured Sparsity}
       \field{volume}{abs/1402.4512}
@@ -321,26 +480,57 @@
       \verb http://arxiv.org/abs/1402.4512
       \endverb
       \keyw{article}
+      \annotation{item}{author}{3}{}{highlight}
     \endentry
     \entry{RaoNIPS}{incollection}{}
-      \name{labelname}{4}{}{%
-        {{hash=3f22b953e343cefb687a8e57212835d9}{Rao}{R\bibinitperiod}{Nikhil}{N\bibinitperiod}{}{}{}{}}%
-        {{hash=f07902f96e5e1e92fabe02eaa77863ba}{Cox}{C\bibinitperiod}{Christopher\bibnamedelima R.}{C\bibinitperiod}{}{}{}{}}%
-        {{hash=19b2280a6a0d42ce384e6d83eab513c1}{Nowak}{N\bibinitperiod}{Robert}{R\bibinitperiod}{}{}{}{}}%
-        {{hash=a50eaab683052cc5692578a35854e7c5}{Rogers}{R\bibinitperiod}{Timothy\bibnamedelima T.}{T\bibinitperiod\bibinitdelim T\bibinitperiod}{}{}{}{}}%
-      }
       \name{author}{4}{}{%
-        {{hash=3f22b953e343cefb687a8e57212835d9}{Rao}{R\bibinitperiod}{Nikhil}{N\bibinitperiod}{}{}{}{}}%
-        {{hash=f07902f96e5e1e92fabe02eaa77863ba}{Cox}{C\bibinitperiod}{Christopher\bibnamedelima R.}{C\bibinitperiod}{}{}{}{}}%
-        {{hash=19b2280a6a0d42ce384e6d83eab513c1}{Nowak}{N\bibinitperiod}{Robert}{R\bibinitperiod}{}{}{}{}}%
-        {{hash=a50eaab683052cc5692578a35854e7c5}{Rogers}{R\bibinitperiod}{Timothy\bibnamedelima T.}{T\bibinitperiod\bibinitdelim T\bibinitperiod}{}{}{}{}}%
+        {{hash=3f22b953e343cefb687a8e57212835d9}{%
+           family={Rao},
+           family_i={R\bibinitperiod},
+           given={Nikhil},
+           given_i={N\bibinitperiod}}}%
+        {{hash=f07902f96e5e1e92fabe02eaa77863ba}{%
+           family={Cox},
+           family_i={C\bibinitperiod},
+           given={Christopher\bibnamedelima R.},
+           given_i={C\bibinitperiod}}}%
+        {{hash=19b2280a6a0d42ce384e6d83eab513c1}{%
+           family={Nowak},
+           family_i={N\bibinitperiod},
+           given={Robert},
+           given_i={R\bibinitperiod}}}%
+        {{hash=a50eaab683052cc5692578a35854e7c5}{%
+           family={Rogers},
+           family_i={R\bibinitperiod},
+           given={Timothy\bibnamedelima T.},
+           given_i={T\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
       }
       \name{editor}{5}{}{%
-        {{hash=3b2da1b4f82b613040b3d24781d245dd}{Burges}{B\bibinitperiod}{C.J.C.}{C\bibinitperiod}{}{}{}{}}%
-        {{hash=27b0ff756cf36911b4cd7d704bfca7a4}{Bottou}{B\bibinitperiod}{L.}{L\bibinitperiod}{}{}{}{}}%
-        {{hash=8b7fe0e4c2b0f504bdf6a5d895d39ee1}{Welling}{W\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
-        {{hash=b45872831548714dccc49dcfa20306a1}{Ghahramani}{G\bibinitperiod}{Z.}{Z\bibinitperiod}{}{}{}{}}%
-        {{hash=dee7103510329190edf544d4240e77af}{Weinberger}{W\bibinitperiod}{K.Q.}{K\bibinitperiod}{}{}{}{}}%
+        {{hash=3b2da1b4f82b613040b3d24781d245dd}{%
+           family={Burges},
+           family_i={B\bibinitperiod},
+           given={C.J.C.},
+           given_i={C\bibinitperiod}}}%
+        {{hash=27b0ff756cf36911b4cd7d704bfca7a4}{%
+           family={Bottou},
+           family_i={B\bibinitperiod},
+           given={L.},
+           given_i={L\bibinitperiod}}}%
+        {{hash=8b7fe0e4c2b0f504bdf6a5d895d39ee1}{%
+           family={Welling},
+           family_i={W\bibinitperiod},
+           given={M.},
+           given_i={M\bibinitperiod}}}%
+        {{hash=b45872831548714dccc49dcfa20306a1}{%
+           family={Ghahramani},
+           family_i={G\bibinitperiod},
+           given={Z.},
+           given_i={Z\bibinitperiod}}}%
+        {{hash=dee7103510329190edf544d4240e77af}{%
+           family={Weinberger},
+           family_i={W\bibinitperiod},
+           given={K.Q.},
+           given_i={K\bibinitperiod}}}%
       }
       \list{publisher}{1}{%
         {Curran Associates, Inc.}%
@@ -348,134 +538,201 @@
       \strng{namehash}{dcb080bd054abcd4d8055dbcc8746c5b}
       \strng{fullhash}{89a1dfd699a4b72bfaa1903d2b791a52}
       \field{sortinit}{2}
+      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
       \field{labelyear}{2013}
       \field{datelabelsource}{year}
-      \field{labeltitle}{{S}parse {O}verlapping {S}ets {Lasso} for Multitask Learning and its Application to f{MRI} Analysis}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
       \field{booktitle}{Advances in Neural Information Processing Systems 26}
       \field{title}{{S}parse {O}verlapping {S}ets {Lasso} for Multitask Learning and its Application to f{MRI} Analysis}
       \field{year}{2013}
       \field{pages}{2202\bibrangedash 2210}
+      \range{pages}{9}
       \keyw{article}
+      \annotation{item}{author}{2}{}{highlight}
     \endentry
     \entry{cox_WARF_2012}{misc}{}
-      \name{labelname}{4}{uniquelist=2}{%
-        {{hash=f07902f96e5e1e92fabe02eaa77863ba}{Cox}{C\bibinitperiod}{Christopher\bibnamedelima R.}{C\bibinitperiod}{}{}{}{}}%
-        {{hash=34479acd4833c6621299f18dd974ddf0}{Malekpour}{M\bibinitperiod}{Shirzad}{S\bibinitperiod}{}{}{}{}}%
-        {{hash=19b2280a6a0d42ce384e6d83eab513c1}{Nowak}{N\bibinitperiod}{Robert}{R\bibinitperiod}{}{}{}{}}%
-        {{hash=a50eaab683052cc5692578a35854e7c5}{Rogers}{R\bibinitperiod}{Timothy\bibnamedelima T.}{T\bibinitperiod\bibinitdelim T\bibinitperiod}{}{}{}{}}%
-      }
       \name{author}{4}{uniquelist=2}{%
-        {{hash=f07902f96e5e1e92fabe02eaa77863ba}{Cox}{C\bibinitperiod}{Christopher\bibnamedelima R.}{C\bibinitperiod}{}{}{}{}}%
-        {{hash=34479acd4833c6621299f18dd974ddf0}{Malekpour}{M\bibinitperiod}{Shirzad}{S\bibinitperiod}{}{}{}{}}%
-        {{hash=19b2280a6a0d42ce384e6d83eab513c1}{Nowak}{N\bibinitperiod}{Robert}{R\bibinitperiod}{}{}{}{}}%
-        {{hash=a50eaab683052cc5692578a35854e7c5}{Rogers}{R\bibinitperiod}{Timothy\bibnamedelima T.}{T\bibinitperiod\bibinitdelim T\bibinitperiod}{}{}{}{}}%
+        {{hash=f07902f96e5e1e92fabe02eaa77863ba}{%
+           family={Cox},
+           family_i={C\bibinitperiod},
+           given={Christopher\bibnamedelima R.},
+           given_i={C\bibinitperiod}}}%
+        {{hash=34479acd4833c6621299f18dd974ddf0}{%
+           family={Malekpour},
+           family_i={M\bibinitperiod},
+           given={Shirzad},
+           given_i={S\bibinitperiod}}}%
+        {{hash=19b2280a6a0d42ce384e6d83eab513c1}{%
+           family={Nowak},
+           family_i={N\bibinitperiod},
+           given={Robert},
+           given_i={R\bibinitperiod}}}%
+        {{hash=a50eaab683052cc5692578a35854e7c5}{%
+           family={Rogers},
+           family_i={R\bibinitperiod},
+           given={Timothy\bibnamedelima T.},
+           given_i={T\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
       }
       \strng{namehash}{76d9669e0757b7bac5216d606760dfa4}
       \strng{fullhash}{dac9ec9fef59bcb05c638f8cc4f47f52}
       \field{sortinit}{2}
+      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
       \field{labelyear}{2012}
       \field{datelabelsource}{year}
-      \field{labeltitle}{A new method for f{MRI} analysis suggests that representations of word meaning are radically distributed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
       \field{howpublished}{Poster presented at 1st Wisconsin Alumni Research Foundation Discovery Challenge, Madison, WI}
       \field{title}{A new method for f{MRI} analysis suggests that representations of word meaning are radically distributed}
       \field{year}{2012}
       \keyw{poster}
+      \annotation{item}{author}{1}{}{highlight}
     \endentry
     \entry{cox_NCPW_2012}{misc}{}
-      \name{labelname}{5}{}{%
-        {{hash=f07902f96e5e1e92fabe02eaa77863ba}{Cox}{C\bibinitperiod}{Christopher\bibnamedelima R.}{C\bibinitperiod}{}{}{}{}}%
-        {{hash=057438a8fcd151cf8fe181d9b575da2f}{Seidenberg}{S\bibinitperiod}{Mark\bibnamedelima S.}{M\bibinitperiod\bibinitdelim S\bibinitperiod}{}{}{}{}}%
-        {{hash=f04560fe692cba3c3cb442ebd52c6def}{Binder}{B\bibinitperiod}{Jeffery\bibnamedelima R.}{J\bibinitperiod\bibinitdelim R\bibinitperiod}{}{}{}{}}%
-        {{hash=63dda5fa22cd2747d8859dc8d41377f0}{Desai}{D\bibinitperiod}{Rutvik\bibnamedelima H.}{R\bibinitperiod\bibinitdelim H\bibinitperiod}{}{}{}{}}%
-        {{hash=a50eaab683052cc5692578a35854e7c5}{Rogers}{R\bibinitperiod}{Timothy\bibnamedelima T.}{T\bibinitperiod\bibinitdelim T\bibinitperiod}{}{}{}{}}%
-      }
       \name{author}{5}{}{%
-        {{hash=f07902f96e5e1e92fabe02eaa77863ba}{Cox}{C\bibinitperiod}{Christopher\bibnamedelima R.}{C\bibinitperiod}{}{}{}{}}%
-        {{hash=057438a8fcd151cf8fe181d9b575da2f}{Seidenberg}{S\bibinitperiod}{Mark\bibnamedelima S.}{M\bibinitperiod\bibinitdelim S\bibinitperiod}{}{}{}{}}%
-        {{hash=f04560fe692cba3c3cb442ebd52c6def}{Binder}{B\bibinitperiod}{Jeffery\bibnamedelima R.}{J\bibinitperiod\bibinitdelim R\bibinitperiod}{}{}{}{}}%
-        {{hash=63dda5fa22cd2747d8859dc8d41377f0}{Desai}{D\bibinitperiod}{Rutvik\bibnamedelima H.}{R\bibinitperiod\bibinitdelim H\bibinitperiod}{}{}{}{}}%
-        {{hash=a50eaab683052cc5692578a35854e7c5}{Rogers}{R\bibinitperiod}{Timothy\bibnamedelima T.}{T\bibinitperiod\bibinitdelim T\bibinitperiod}{}{}{}{}}%
+        {{hash=f07902f96e5e1e92fabe02eaa77863ba}{%
+           family={Cox},
+           family_i={C\bibinitperiod},
+           given={Christopher\bibnamedelima R.},
+           given_i={C\bibinitperiod}}}%
+        {{hash=057438a8fcd151cf8fe181d9b575da2f}{%
+           family={Seidenberg},
+           family_i={S\bibinitperiod},
+           given={Mark\bibnamedelima S.},
+           given_i={M\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=f04560fe692cba3c3cb442ebd52c6def}{%
+           family={Binder},
+           family_i={B\bibinitperiod},
+           given={Jeffery\bibnamedelima R.},
+           given_i={J\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=63dda5fa22cd2747d8859dc8d41377f0}{%
+           family={Desai},
+           family_i={D\bibinitperiod},
+           given={Rutvik\bibnamedelima H.},
+           given_i={R\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=a50eaab683052cc5692578a35854e7c5}{%
+           family={Rogers},
+           family_i={R\bibinitperiod},
+           given={Timothy\bibnamedelima T.},
+           given_i={T\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
       }
       \strng{namehash}{503551788fad77b6464cf1db6a452c97}
       \strng{fullhash}{b0e7a2c33a413852dbbeafdb062b946d}
       \field{sortinit}{2}
+      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
       \field{extrayear}{1}
       \field{labelyear}{2012}
       \field{datelabelsource}{year}
-      \field{labeltitle}{Are semantic representations of words radically distributed?}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
       \field{howpublished}{Poster presented at 13th meeting of the Neural Computation and Psychology Workshop, Donastia-San Sebastian, Spain}
       \field{title}{Are semantic representations of words radically distributed?}
       \field{year}{2012}
       \keyw{poster}
+      \annotation{item}{author}{1}{}{highlight}
     \endentry
     \entry{cox_CNS_2012}{misc}{}
-      \name{labelname}{5}{}{%
-        {{hash=f07902f96e5e1e92fabe02eaa77863ba}{Cox}{C\bibinitperiod}{Christopher\bibnamedelima R.}{C\bibinitperiod}{}{}{}{}}%
-        {{hash=057438a8fcd151cf8fe181d9b575da2f}{Seidenberg}{S\bibinitperiod}{Mark\bibnamedelima S.}{M\bibinitperiod\bibinitdelim S\bibinitperiod}{}{}{}{}}%
-        {{hash=f04560fe692cba3c3cb442ebd52c6def}{Binder}{B\bibinitperiod}{Jeffery\bibnamedelima R.}{J\bibinitperiod\bibinitdelim R\bibinitperiod}{}{}{}{}}%
-        {{hash=63dda5fa22cd2747d8859dc8d41377f0}{Desai}{D\bibinitperiod}{Rutvik\bibnamedelima H.}{R\bibinitperiod\bibinitdelim H\bibinitperiod}{}{}{}{}}%
-        {{hash=a50eaab683052cc5692578a35854e7c5}{Rogers}{R\bibinitperiod}{Timothy\bibnamedelima T.}{T\bibinitperiod\bibinitdelim T\bibinitperiod}{}{}{}{}}%
-      }
       \name{author}{5}{}{%
-        {{hash=f07902f96e5e1e92fabe02eaa77863ba}{Cox}{C\bibinitperiod}{Christopher\bibnamedelima R.}{C\bibinitperiod}{}{}{}{}}%
-        {{hash=057438a8fcd151cf8fe181d9b575da2f}{Seidenberg}{S\bibinitperiod}{Mark\bibnamedelima S.}{M\bibinitperiod\bibinitdelim S\bibinitperiod}{}{}{}{}}%
-        {{hash=f04560fe692cba3c3cb442ebd52c6def}{Binder}{B\bibinitperiod}{Jeffery\bibnamedelima R.}{J\bibinitperiod\bibinitdelim R\bibinitperiod}{}{}{}{}}%
-        {{hash=63dda5fa22cd2747d8859dc8d41377f0}{Desai}{D\bibinitperiod}{Rutvik\bibnamedelima H.}{R\bibinitperiod\bibinitdelim H\bibinitperiod}{}{}{}{}}%
-        {{hash=a50eaab683052cc5692578a35854e7c5}{Rogers}{R\bibinitperiod}{Timothy\bibnamedelima T.}{T\bibinitperiod\bibinitdelim T\bibinitperiod}{}{}{}{}}%
+        {{hash=f07902f96e5e1e92fabe02eaa77863ba}{%
+           family={Cox},
+           family_i={C\bibinitperiod},
+           given={Christopher\bibnamedelima R.},
+           given_i={C\bibinitperiod}}}%
+        {{hash=057438a8fcd151cf8fe181d9b575da2f}{%
+           family={Seidenberg},
+           family_i={S\bibinitperiod},
+           given={Mark\bibnamedelima S.},
+           given_i={M\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=f04560fe692cba3c3cb442ebd52c6def}{%
+           family={Binder},
+           family_i={B\bibinitperiod},
+           given={Jeffery\bibnamedelima R.},
+           given_i={J\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=63dda5fa22cd2747d8859dc8d41377f0}{%
+           family={Desai},
+           family_i={D\bibinitperiod},
+           given={Rutvik\bibnamedelima H.},
+           given_i={R\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=a50eaab683052cc5692578a35854e7c5}{%
+           family={Rogers},
+           family_i={R\bibinitperiod},
+           given={Timothy\bibnamedelima T.},
+           given_i={T\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
       }
       \strng{namehash}{503551788fad77b6464cf1db6a452c97}
       \strng{fullhash}{b0e7a2c33a413852dbbeafdb062b946d}
       \field{sortinit}{2}
+      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
       \field{extrayear}{2}
       \field{labelyear}{2012}
       \field{datelabelsource}{year}
-      \field{labeltitle}{Are semantic representations of words radically distributed?}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
       \field{howpublished}{Poster presented at 19th Meeting of the Cognitive Neuroscience Society, Chicago, IL}
       \field{title}{Are semantic representations of words radically distributed?}
       \field{year}{2012}
       \keyw{poster}
+      \annotation{item}{author}{1}{}{highlight}
     \endentry
     \entry{gomez_SCP_2011}{misc}{}
-      \name{labelname}{3}{}{%
-        {{hash=00ed7e99f758cd25dd6512e6c942cb11}{Gomez}{G\bibinitperiod}{Pablo}{P\bibinitperiod}{}{}{}{}}%
-        {{hash=f07902f96e5e1e92fabe02eaa77863ba}{Cox}{C\bibinitperiod}{Christopher\bibnamedelima R.}{C\bibinitperiod}{}{}{}{}}%
-        {{hash=89f0d0e64f9f5a7f5dbcd623a2140891}{Geller}{G\bibinitperiod}{Jason}{J\bibinitperiod}{}{}{}{}}%
-      }
       \name{author}{3}{}{%
-        {{hash=00ed7e99f758cd25dd6512e6c942cb11}{Gomez}{G\bibinitperiod}{Pablo}{P\bibinitperiod}{}{}{}{}}%
-        {{hash=f07902f96e5e1e92fabe02eaa77863ba}{Cox}{C\bibinitperiod}{Christopher\bibnamedelima R.}{C\bibinitperiod}{}{}{}{}}%
-        {{hash=89f0d0e64f9f5a7f5dbcd623a2140891}{Geller}{G\bibinitperiod}{Jason}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=00ed7e99f758cd25dd6512e6c942cb11}{%
+           family={Gomez},
+           family_i={G\bibinitperiod},
+           given={Pablo},
+           given_i={P\bibinitperiod}}}%
+        {{hash=f07902f96e5e1e92fabe02eaa77863ba}{%
+           family={Cox},
+           family_i={C\bibinitperiod},
+           given={Christopher\bibnamedelima R.},
+           given_i={C\bibinitperiod}}}%
+        {{hash=89f0d0e64f9f5a7f5dbcd623a2140891}{%
+           family={Geller},
+           family_i={G\bibinitperiod},
+           given={Jason},
+           given_i={J\bibinitperiod}}}%
       }
       \strng{namehash}{e3a8364bf6d7d7ad87855ea5c543cd67}
       \strng{fullhash}{f5a5cb72a25d46cc1113621c58fc1076}
       \field{sortinit}{2}
+      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
       \field{labelyear}{2011}
       \field{datelabelsource}{year}
-      \field{labeltitle}{Modeling corrective saccades}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
       \field{howpublished}{Poster presented at 41st Meeting of the Society for Computers in Psychology Meeting, Seattle, WA}
       \field{title}{Modeling corrective saccades}
       \field{year}{2011}
       \keyw{poster}
+      \annotation{item}{author}{2}{}{highlight}
     \endentry
     \entry{cox_PNOMICS_2009}{misc}{}
-      \name{labelname}{2}{}{%
-        {{hash=f07902f96e5e1e92fabe02eaa77863ba}{Cox}{C\bibinitperiod}{Christopher\bibnamedelima R.}{C\bibinitperiod}{}{}{}{}}%
-        {{hash=00ed7e99f758cd25dd6512e6c942cb11}{Gomez}{G\bibinitperiod}{Pablo}{P\bibinitperiod}{}{}{}{}}%
-      }
       \name{author}{2}{}{%
-        {{hash=f07902f96e5e1e92fabe02eaa77863ba}{Cox}{C\bibinitperiod}{Christopher\bibnamedelima R.}{C\bibinitperiod}{}{}{}{}}%
-        {{hash=00ed7e99f758cd25dd6512e6c942cb11}{Gomez}{G\bibinitperiod}{Pablo}{P\bibinitperiod}{}{}{}{}}%
+        {{hash=f07902f96e5e1e92fabe02eaa77863ba}{%
+           family={Cox},
+           family_i={C\bibinitperiod},
+           given={Christopher\bibnamedelima R.},
+           given_i={C\bibinitperiod}}}%
+        {{hash=00ed7e99f758cd25dd6512e6c942cb11}{%
+           family={Gomez},
+           family_i={G\bibinitperiod},
+           given={Pablo},
+           given_i={P\bibinitperiod}}}%
       }
       \strng{namehash}{28cd855dd696c7ba303296836be7c3de}
       \strng{fullhash}{28cd855dd696c7ba303296836be7c3de}
       \field{sortinit}{2}
+      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
       \field{labelyear}{2009}
       \field{datelabelsource}{year}
-      \field{labeltitle}{Are semantic representations of words radically distributed?}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
       \field{howpublished}{Poster presented at the 50th Annual Meeting of the Psychonomic Society, Boston, MA}
       \field{title}{Are semantic representations of words radically distributed?}
       \field{year}{2009}
       \keyw{poster}
+      \annotation{item}{author}{1}{}{highlight}
     \endentry
   \endsortlist
 \endrefsection
